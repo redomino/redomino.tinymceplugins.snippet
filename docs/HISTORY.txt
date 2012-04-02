@@ -4,7 +4,7 @@ Changelog
 0.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- fixed readme and setup.py [sithmel]
 
 
 0.0.2 (2011-12-21)
