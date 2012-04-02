@@ -21,12 +21,11 @@ version = '0.0.4.dev0'
 
 setup(name='redomino.tinymceplugins.snippet',
       version=version,
-      description="An not so advanced TinyMCE plugin for handling links to galleries",
+      description="A TinyMCE plugin for pasting snippets inside a text",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
-        "Development Status :: 3 - Alpha",
         "Framework :: Plone",
         "Programming Language :: Python",
         "Programming Language :: JavaScript",
