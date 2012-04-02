@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" i18n:domain="tinymce.snippet">
+<head>
+	<title i18n:translate="snippet_dlg_paste_html_title">Insert HTML</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../../utils/mctabs.js"></script>
+	<script type="text/javascript" src="../../utils/validate.js"></script>
+	<script type="text/javascript" src="../../utils/form_utils.js"></script>
+	<script type="text/javascript" src="../../utils/editable_selects.js"></script>
+	<script type="text/javascript" src="js/dialog.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/dialog.css" />
+</head>
+<body>
+<div class="dialog-wrapper" id="content">
+<form onsubmit="SnippetDialog.insert();return false;" action="#">
+		<fieldset>
+		  <legend i18n:translate="snippet_dlg_paste_html_desc">Insert HTML</legend>
+		  <div class="field">
+			<div class="formHelp" i18n:translate="snippet_dlg_paste_html_help">Press CTRL+V on the keyboard to paste html in the area below.</div>
+			<div class="widget">
+			  <textarea  id="mceTextPaste" name="snippet" rows="15" cols="100" wrap="soft" class="mceFocus"></textarea>
+			</div>
+		  </div>
+		</fieldset>
+	<div class="mceActionPanel">
+		<input type="button" id="insert" name="insert" value="{#insert}" onclick="SnippetDialog.insert();" />
+		<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+	</div>
+</form>
+</div>
+
+
+</body>
+</html>

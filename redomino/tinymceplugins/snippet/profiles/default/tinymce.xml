@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<object>
+ <resourcetypes purge="False">
+  <customplugins purge="False">
+    <element value="snippet"/>
+  </customplugins>
+ </resourcetypes>
+ <toolbar>
+  <customtoolbarbuttons purge="False">
+    <element value="snippet"/>
+  </customtoolbarbuttons>
+ </toolbar>
+ 
+</object>

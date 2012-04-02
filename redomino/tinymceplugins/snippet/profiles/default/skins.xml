@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<object name="portal_skins" >
+   
+ <object name="tinymce_plugin_snippet"
+    meta_type="Filesystem Directory View"
+    directory="redomino.tinymceplugins.snippet:skins/tinymce_plugin_snippet"/>
+
+ <skin-path name="*">
+  <layer name="tinymce_plugin_snippet"
+     insert-after="custom"/>
+ </skin-path>
+ 
+</object>

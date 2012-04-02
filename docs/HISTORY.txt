@@ -1,0 +1,13 @@
+Changelog
+=========
+
+0.0.3 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
+0.0.2 (2011-12-21)
+------------------
+
+- initial release
