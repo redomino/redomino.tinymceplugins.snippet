@@ -17,7 +17,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.0.4'
+version = '0.0.5.dev0'
 
 setup(name='redomino.tinymceplugins.snippet',
       version=version,
